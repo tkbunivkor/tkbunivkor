@@ -1,4 +1,4 @@
-# Rekorn Sounds
+# University of Tsukuba Korean Student Association
 
 ![Banner](/images/big-banner.jpg)
 

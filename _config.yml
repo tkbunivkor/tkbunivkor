@@ -13,7 +13,7 @@ defaults:
   values:
     permalink: "/blog/:title/"
     layout: post
-    author: rekorn
+    author: tkbunivkor
 
 # Jekyll
 permalink:          /blog/:title/
@@ -31,19 +31,19 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   rekorn
+disqus_shortname:   tkbunivkor
 
 # Social
-analytics-id:       "urun4m0r1"
-twitter:            urun4m0r1
-facebook:           urun4m0r1
-instagram:          urun4m0r1
-github:             urun4m0r1
+analytics-id:       "tkbunivkor"
+twitter:            tkbunivkor
+facebook:           tkbunivkor
+instagram:          tkbunivkor
+github:             tkbunivkor
 
 # personal
 location:           Tsukuba, Ibaraki, Japan
-phone:              +81-90-3400-7404
-email:              urun4m0r1@gmail.com
+phone:              +81-00-0000-0000
+email:              tkbunivkor@gmail.com
 
 # Gems
 gems:
