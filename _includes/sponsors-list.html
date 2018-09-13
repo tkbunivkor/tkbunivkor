@@ -1,0 +1,11 @@
+{% assign trans = site.data.values[site.lan] %}
+<h1>{{ trans.sponsors }}</h1>
+<ul>
+  {% for sponsor in site.data.sponsors %}
+  <li>
+    <a href="{{ sponsor.url }}">
+      {{ sponsor.title }}
+    </a>
+  </li> 
+  {% endfor %}
+</ul>
