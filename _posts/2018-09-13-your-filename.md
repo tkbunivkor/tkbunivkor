@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## 새 글
 
