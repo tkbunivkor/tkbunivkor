@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: 츠쿠바 대학 한국인 유학생회
-description: 츠쿠바 대학 한국인 유학생회 홈페이지 입니다.
+description: 츠쿠바 대학 한국인 유학생회
 
 # url is currently only used only for the RSS feed in feed.xml
 url: https://tkbunivkor.github.io
@@ -13,12 +13,12 @@ url: https://tkbunivkor.github.io
 baseurl: ''
 ## default date_format
 date_format: 
-  title: "%B-%-d-%Y"
-  archive: "%b"
-  categories: "%b-%Y"
-  tag: "%b-%Y"
+  title: "%Y-%-m-%-d"
+  archive: "%m"
+  categories: "%Y-%m"
+  tag: "%Y-%m"
 # Language
-lan: "en" 
+lan: "ko" 
 
 paginate: 10
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "츠쿠바 대학 한국인 유학생회"
 date:   2017-09-05 14:10:51 +0800
 categories: Jekyll
 tags: Jekyll
