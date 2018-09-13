@@ -4,5 +4,17 @@
 - url: "http://chiba.kankoku.or.kr/smain.html"
   title: "지바한국교육원" 
 
-- url: "https://www.facebook.com/CJJFOOD/"
-  title: "CJ Food"
+- url: "http://www.tsukuba.ac.jp/"
+  title: "筑波大学"
+
+- url: "https://twins.tsukuba.ac.jp/campusweb/"
+  title: "Twins"
+
+- url: "http://manaba.tsukuba.ac.jp/"
+  title: "Manaba"
+
+- url: "https://wmail.u.tsukuba.ac.jp/"
+  title: "Active Mail"
+
+- url: "https://www.tulips.tsukuba.ac.jp/lib/"
+  title: "Tulips"
