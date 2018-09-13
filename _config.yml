@@ -1,59 +1,29 @@
-# Site
-title:              Rekorn Sounds
-bio:                'Local anisong DJ in Japan'
-description:        "DJing, Producing, VJing, and Programming"
-locale:             ko_KR
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tkbunivkor.github.io" # the base hostname & protocol for your site
+# Jekyll configuration
 
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/blog/:title/"
-    layout: post
-    author: tkbunivkor
+name: 츠쿠바 대학 한국인 유학생회
+description: 츠쿠바 대학 한국인 유학생회 홈페이지 입니다.
 
-# Jekyll
-permalink:          /blog/:title/
-markdown:           kramdown
-highlighter:        rouge
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
-sass:
-  sass_dir:         _sass
-  style:            compressed
+# url is currently only used only for the RSS feed in feed.xml
+url: https://tkbunivkor.github.io
 
-# Comments
-disqus_shortname:   tkbunivkor
+# baseurl will often be '', but for a project page on gh-pages, it needs to
+# be the project name.
+# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
+#     run it like so: jekyll serve --baseurl=''
+baseurl: ''
+## default date_format
+date_format: 
+  title: "%B-%-d-%Y"
+  archive: "%b"
+  categories: "%b-%Y"
+  tag: "%b-%Y"
+# Language
+lan: "ko" 
 
-# Social
-analytics-id:       "tkbunivkor"
-twitter:            tkbunivkor
-facebook:           tkbunivkor
-instagram:          tkbunivkor
-github:             tkbunivkor
+paginate: 10
 
-# personal
-location:           Tsukuba, Ibaraki, Japan
-phone:              +81-00-0000-0000
-email:              tkbunivkor@gmail.com
+highlighter: rouge
+markdown: kramdown
+gems: ['jekyll-paginate']
 
-# Gems
-gems:
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-
-paginate: 6
-paginate_path: "/blog/page:num/"
-
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
+exclude: ['README.md', 'LICENSE', "*.bak"]
